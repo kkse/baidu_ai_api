@@ -1,6 +1,6 @@
 {
     "name": "kkse/baidu_ai_api",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "简单封装的百度ai的API。参考overtrue/wechat写的。",
     "type": "library",
     "license": "MIT",
@@ -19,6 +19,7 @@
         ]
     },
     "require": {
+		"php": ">=7.1",
         "ext-fileinfo": "*",
         "ext-mbstring": "*",
         "ext-curl": "*",
