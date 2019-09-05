@@ -10,7 +10,7 @@ class SubServiceContainer extends ServiceContainer
      * @var array
      */
     protected $rebinds = [
-        'cache'
+        'cache','logger'
     ];
 
     public function __construct(ServiceContainer $container)
